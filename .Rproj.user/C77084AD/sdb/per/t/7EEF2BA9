@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "Package: Rprofiling\nType: Package\nTitle: Profiling datasets\nVersion: 0.1.0\nAuthor: Isaac Tetteh\nMaintainer: Isaac Tetteh <itettehbvu@gmail.com>\nDescription: This package was influenced by pandas_profiling. What this package does is \n              that, it gives you an deep overview of your dataset i.e nuber of variables, observations, missing values,\n              unique values, variable types, visualization of missing values and summary of your datasets.\nLicense: MIT + file LICENSE\nEncoding: UTF-8\nLazyData: true\nImports:\n  Amelia,\n  tidyverse\nRoxygenNote: 6.0.1\nSuggests: knitr,\n    rmarkdown,\n    testthat\nVignetteBuilder: knitr\n",
+    "created" : 1496004740711.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2668530803",
+    "id" : "7EEF2BA9",
+    "lastKnownWriteTime" : 1496372637,
+    "last_content_update" : -2147483648,
+    "path" : "C:/Users/itett/Desktop/Rprofiling/DESCRIPTION",
+    "project_path" : "DESCRIPTION",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "dcf"
+}

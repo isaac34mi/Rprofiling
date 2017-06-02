@@ -1,0 +1,60 @@
+---
+title: "Rprofiling"
+author: "Isaac Tetteh"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Rprofiling}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+The Rprofiling package consists of Five function. All these function takes one argument, which is of a class dataframe. Below are the functions:
+
+* dsetinfo to give information on variables, observation, missig values and uniqness of the data
+
+* var_types gives a count of the data type of the variables
+
+* sample_data give a sample of the data
+
+* data_summary usese the **summary** function to summerise the data.
+
+* vis_mdata visualises the missig data in the dataset.
+
+* full_profile combine all the above functon into one
+
+
+
+```{r}
+library(tidyverse)
+library(Amelia)
+```
+
+### Examples on how to use dsetinfo(data) function
+```{r, echo=TRUE}
+Rprofiling::dsetinfo(mtcars)
+```
+
+### Examples on how to use var_types(data) function
+```{r, echo=FALSE}
+Rprofiling::var_types(mtcars)
+```
+
+### Examples on how to use sample_data(data) function
+```{r, echo=FALSE}
+Rprofiling::sample_data(mtcars)
+```
+
+### Examples on how to use data_summary(data) function
+```{r, echo=FALSE}
+Rprofiling::data_summary(mtcars)
+```
+
+### Examples on how to use vis_mdata(data) function
+```{r, fig.show='hold'}
+Rprofiling::vis_mdata(mtcars)
+```
+### Examples on how to use full_profile(data) function
+```{r, echo=FALSE}
+Rprofiling::full_profile(mtcars)
+```
