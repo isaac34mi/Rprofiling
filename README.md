@@ -7,6 +7,7 @@ With a single command `Rprofiling::full_profile(data)` you can get beautiful, we
 * tidyverse
 * Amilia
 * knitr
+* Bootstrap css
 
 ## Installation
 Since this package is not on Cran, the easiest way is to use devtools.
