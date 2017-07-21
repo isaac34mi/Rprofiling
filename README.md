@@ -1,5 +1,6 @@
 # Rprofiling
 Another reason I wrote this package is becuase i didn't like the way Rstudio displays dataframes(maybe its because I use Jupyter a lot).
+With a single command `Rprofiling::full_profile(data)` you can get beautiful, well organized and resonable details about your dataset. 
 
 
 ## Dependencies
@@ -8,7 +9,7 @@ Another reason I wrote this package is becuase i didn't like the way Rstudio dis
 * knitr
 
 ## Installation
-Since this package is not in Cran, the easiest way is to use devtools.
+Since this package is not on Cran, the easiest way is to use devtools.
 
 devtools::install_github("isaac34mi/Rprofiling")
 
