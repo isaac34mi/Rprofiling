@@ -63,7 +63,7 @@ devtools::install_github("isaac34mi/Rprofiling")
  
 __full_profile__
  ```r
- Rprofiling::__full_profile__(mtcars)
+ Rprofiling::full_profile(mtcars)
  ```
  Result:
  ![full_profile](https://dl.boxcloud.com/api/2.0/files/199706053958/content?preview=true&access_token=1!Q3KAZrbsWobiTjxlGWZiGdb4nipBtZ4f4SnH4kjbGn_mn_l9esI_S-tijDyuu2E-3y7GiM7Er81QXNYsyKrSgSStUUBTsXbl448xNSoSaFDLEA37ITrF6UKBTeo-UIob7GPb901S6pnnYjKYqTQ5lL7FdzCUKbdB6MF1CUddsQQ3OgyfUFM67O4xibLVimfLVK370jaFoBpGUJM-Mw9dsa9W9ltJJ0nPtsWT2xmFXnXt91epaxoCgXYjUYu1jGeJX4jziUZRrbH6Btb7ENa-prdWMHgCy4aFDodE1fUbjXDKNrCNDsjBzH8NNsA-3Su6bMhBanIo04z5u-iDhKkyLhsFOtWUPaixdTMKtmrf6euUZWG8qSFpy20h59_4yUL0ns1RC2mAhuU8xU0cbg..&box_client_name=box-content-preview&box_client_version=1.1.1)
