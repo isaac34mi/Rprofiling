@@ -1,6 +1,5 @@
 # Rprofiling
-Another reason I wrote this package is becuase i didn't like the way Rstudio displays dataframes(maybe its because I use Jupyter a lot).
-With a single command `Rprofiling::full_profile(data)` you can get beautiful, well organized and resonable details about your dataset. 
+This is a simple R pacakge to make it easy to perform first hand data exploration. Like, number of rows, finiding missing values, summary of datatypes, and more! 
 
 
 ## Dependencies
